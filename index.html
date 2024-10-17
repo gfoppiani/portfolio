@@ -4,55 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Menu Toggle Button -->
-    <div class="menu-toggle">
-        <span>MENU</span>
-    </div>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <img src="header-image.jpg" alt="Header Image" class="header-image">
+            <h1>Giovanni Foppiani</h1>
+            <p>Visual Designer & Researcher</p>
+        </div>
+    </header>
 
-    <!-- Menu -->
-    <nav class="menu" id="menu">
+    <!-- Navigation -->
+    <nav class="navbar">
         <ul>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#works">WORKS</a></li>
             <li><a href="#research">RESEARCH</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content -->
-    <header class="header">
-        <h1>Giovanni Foppiani</h1>
-        <p>Visual Designer & Researcher</p>
-    </header>
-
-    <section class="about" id="about">
-        <h2>About</h2>
-        <p>Through my design practice, I collaborate with eco-social conscious brands, collectives, and associations of the third sector to strengthen their communication potential.</p>
-        <p>By investigating the mutual relationships between ecosystems, my research leads to scenarios that frame new ways of conceiving interspecies cooperation and collaborations.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <p>
+            Through my design practice I collaborate with eco-social conscious brands, collectives and associations of the third sector to strengthen their communication potential.
+        </p>
+        <p class="about-description">
+            By investigating the mutual relationships between design, humans, and natural ecosystems, my research leads to scenarios that frame new ways of conceiving interspecies cooperation and collaborations.
+        </p>
     </section>
 
-    <section class="projects" id="projects">
-        <h2>Projects</h2>
-        <!-- Projects content -->
+    <!-- Works Section -->
+    <section id="works" class="works">
+        <h2>Works</h2>
+        <div class="work-grid">
+            <div class="work-item">
+                <img src="work1.jpg" alt="Work 1">
+                <p>Web Ecosystem Model</p>
+            </div>
+            <div class="work-item">
+                <img src="work2.jpg" alt="Work 2">
+                <p>Criticity</p>
+            </div>
+            <!-- Add more work items as needed -->
+        </div>
     </section>
 
-    <section class="research" id="research">
-        <h2>Research</h2>
-        <!-- Research content -->
-    </section>
-
-    <section class="contact" id="contact">
-        <h2>Contact</h2>
-        <!-- Contact content -->
-    </section>
-
-    <footer>
-        <p>Instagram | LinkedIn</p>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Follow me on <a href="#">Instagram</a> and <a href="#">LinkedIn</a></p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
