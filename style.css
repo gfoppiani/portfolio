@@ -1,115 +1,107 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-\f0\fs24 \cf0 * \{\
-    margin: 0;\
-    padding: 0;\
-    box-sizing: border-box;\
-\}\
-\
-body \{\
-    font-family: Arial, sans-serif;\
-    background-color: #1e1e1e;\
-    color: #fff;\
-    padding: 20px;\
-\}\
-\
-.header \{\
-    text-align: center;\
-    margin-bottom: 30px;\
-\}\
-\
-.header h1 \{\
-    font-size: 2.5em;\
-\}\
-\
-.header p \{\
-    font-size: 1.2em;\
-    color: #bbb;\
-\}\
-\
-.about \{\
-    margin: 20px 0;\
-    text-align: center;\
-\}\
-\
-.about h2 \{\
-    font-size: 2em;\
-    margin-bottom: 15px;\
-\}\
-\
-.about p \{\
-    font-size: 1.1em;\
-    margin-bottom: 10px;\
-    line-height: 1.6;\
-\}\
-\
-.tags \{\
-    display: flex;\
-    justify-content: center;\
-    margin-bottom: 30px;\
-\}\
-\
-.tags button \{\
-    background-color: #444;\
-    border: none;\
-    color: white;\
-    padding: 10px 20px;\
-    margin: 5px;\
-    cursor: pointer;\
-    font-size: 0.9em;\
-\}\
-\
-.works \{\
-    text-align: center;\
-    margin-bottom: 50px;\
-\}\
-\
-.works h2 \{\
-    font-size: 2em;\
-    margin-bottom: 20px;\
-\}\
-\
-.tags span \{\
-    display: inline-block;\
-    background-color: #555;\
-    padding: 5px 10px;\
-    margin: 5px;\
-    font-size: 0.9em;\
-\}\
-\
-.projects \{\
-    display: grid;\
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\
-    gap: 20px;\
-\}\
-\
-.project \{\
-    background-color: #333;\
-    padding: 20px;\
-    border-radius: 8px;\
-\}\
-\
-.project h3 \{\
-    font-size: 1.2em;\
-    margin-bottom: 10px;\
-\}\
-\
-.project p \{\
-    color: #bbb;\
-\}\
-\
-footer \{\
-    text-align: center;\
-    margin-top: 50px;\
-\}\
-\
-footer p \{\
-    color: #bbb;\
-    font-size: 0.9em;\
-\}\
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #bbb;
+}
+
+.about {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tags button {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.works {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.works h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tags span {
+    display: inline-block;
+    background-color: #555;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #bbb;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #bbb;
+    font-size: 0.9em;
 }
