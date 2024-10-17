@@ -1,3 +1,4 @@
+/* Reset and basic styling */
 * {
     margin: 0;
     padding: 0;
@@ -8,92 +9,67 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
     color: #fff;
-    padding: 20px;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1000;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: left 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    color: #00bfff; /* Highlight effect */
+}
+
+.menu-open {
+    left: 0; /* Show menu when opened */
 }
 
 .header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: 80px;
 }
 
 .header h1 {
     font-size: 2.5em;
-}
-
-.header p {
-    font-size: 1.2em;
-    color: #bbb;
-}
-
-.about {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.about h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-}
-
-.about p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-.tags {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.tags button {
-    background-color: #444;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    font-size: 0.9em;
-}
-
-.works {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.works h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.tags span {
-    display: inline-block;
-    background-color: #555;
-    padding: 5px 10px;
-    margin: 5px;
-    font-size: 0.9em;
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.project {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.project h3 {
-    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.project p {
-    color: #bbb;
+.about, .projects, .research, .contact {
+    padding: 50px;
+    text-align: center;
 }
 
 footer {
